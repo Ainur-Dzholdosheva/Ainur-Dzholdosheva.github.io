@@ -1,0 +1,80 @@
+nav{
+    background-color: purple;
+    height: 80px;
+    width: auto;
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    justify-content: space-evenly;
+}
+nav a{
+    color:white;
+    font-size: 20px;
+}
+header{
+    
+    height: 600px;
+    width: auto;
+    background-color: rgb(233, 116, 116);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+header p{
+    font-size: 30px;
+    padding-right: 200px;
+    padding-left: 100px;
+}
+ img{
+     
+    width: 300px;
+    height: 300px;
+    margin: 7px;
+    border-radius: 150px;
+    border: 3px solid pink;
+    
+}
+
+aside{
+    padding: 50px;
+}
+aside div{
+    width: 50%;
+    height: 7px;
+    border: 1px solid pink;
+    padding: 5px;
+    margin: 20px;
+    
+    
+}
+.two{
+    background: linear-gradient(to right, red 0%, red 90%,white 90%, white 100% );
+}
+.three{
+   background: linear-gradient(to right,red 0%, red 85%, white 85%, white 100%); 
+}
+.four{
+    background: linear-gradient(to right, red 0%, red 60%, white 60%, white 100%);
+}
+.five{
+    background: linear-gradient(to right, red 0%, red 50%, white 50%, white 100%);
+}
+.wrapper{
+    height: 300px;
+    margin: 20px;
+    color:purple;
+    /* padding-top: 200px; */
+}
+form input{
+    margin:5px;
+    height:20px;
+    width:250px;
+
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
