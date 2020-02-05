@@ -16,7 +16,7 @@ header{
     
     height: 600px;
     width: auto;
-    background-color: rgb(233, 116, 116);
+    background-color: cornflowerblue;
     display: flex;
     justify-content: center;
     align-items: center;
