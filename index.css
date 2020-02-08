@@ -57,6 +57,7 @@ nav{
       
   }
   #About img{
+      border: 5px solid lightslategray;
       width: 400px;
       height: 400px;
       border-radius: 200px;
@@ -75,10 +76,57 @@ nav{
       padding-right: 100px;
       color: white;
   }
-  #Technical div{
-      width: 50%;
-      height: 30px;
-      background-color: black;
-      
+  .two p{
+      font-size: 20px;
+      color: gray;
+
 
   }
+  #Resume h2{
+      text-decoration: underline;
+
+  }
+  .three{
+      padding-left: 200px;
+      padding-right: 200px;
+      
+  }
+  
+ #Technical ul{
+     margin: 0;
+     padding: 0;
+     list-style: none;
+     padding-left: 100px;
+     padding-top: 50px;
+    
+
+ }
+ #Technical li{
+     padding-left: 100px;
+     padding-right: 400px;
+
+ }
+ #Technical div{
+     border: 1px solid black;
+     width: 700px;
+     height: 40px;
+ }
+ #Technical h2{
+     padding-left: 100px;
+     padding-top: 50px;
+     text-decoration: underline;
+     color: black;
+ }
+ .html{
+     background: linear-gradient(to right, rgb(31, 27, 27) 80%,white 15%);
+ }
+ .css{
+     background: linear-gradient(to right, rgb(39, 36, 36) 70%,white 20%);
+ }
+ .java{
+     background: linear-gradient(to right, rgb(39, 36, 36)50%, white 20% );
+
+ }
+ .boot{
+     background: linear-gradient(to right, rgb(39, 36, 36)50%, white 20% );
+ }
