@@ -5,7 +5,7 @@ nav{
     background-color: rgb(15, 15, 15);
     width: 100%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-content: center;
     height: 50px;
     position: fixed;
@@ -58,6 +58,12 @@ nav{
       font-size: 100px;
       color: beige;
   }
+  #home h3{
+      font-size: 50px;
+      color: rgb(161, 145, 78);
+      margin: 0;
+      padding: 0;
+  }
   #home p{
       color: lightgray;
       font-size: 30px;
@@ -97,12 +103,22 @@ nav{
   }
   #Resume h2{
       text-decoration: underline;
+      font-size: 30px;
 
+  }
+  #Resume p{
+      font-size: 20px;
+  }
+  #Education{
+      padding-left: 20px;
   }
   .three{
       padding-left: 200px;
       padding-right: 200px;
       
+  }
+  .three h3{
+      font-size: 25px;
   }
   
  #Technical ul{
@@ -168,4 +184,15 @@ input{
     padding-left: 5px;
     padding-right: 5px;
     
+}
+
+
+#Contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#icons{
+    padding-top: 50px;
 }
