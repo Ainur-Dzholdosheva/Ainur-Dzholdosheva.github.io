@@ -92,14 +92,19 @@ nav{
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding-top: 50px;
+      padding-top: 0;
       padding-left: 100px;
       padding-right: 100px;
       color: white;
   }
+  .two h2{
+      font-size: 30px;
+      
+  }
   .two p{
-      font-size: 20px;
+      font-size: 25px;
       color: bisque;
+      padding-top: 0;
 
 
   }
@@ -220,6 +225,19 @@ input{
 
 #icons{
     padding-top: 50px;
+}
+
+.details{
+    padding-left: 50px;
+}
+.details h3{
+    color:white;
+    font-size: 25px;
+}
+
+.details p{
+    color: white;
+    font-size: 20px;
 }
 
 @media(max-width:900px){
