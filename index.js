@@ -9,6 +9,7 @@ for(let index=0; index<links.length; index++){
         event.preventDefault();
 
         let blockId=element.getAttribute("href");
+        
         let section=document.querySelector(blockId);
         section.scrollIntoView({
             behavior:"smooth",
