@@ -35,9 +35,7 @@ nav{
   nav a:hover{
       background-color: rgb(39, 34, 34);
   }
-  #menu{
-      display: none;
-  }
+ 
   section{
       width: 100%;
       height: 100vh;
@@ -159,7 +157,8 @@ nav{
 }
  #all-prod div{
 border: 1px solid transparent;
-width: 300px;
+max-width:350px;
+min-width: 300px;
 height: 300px;
 margin: 10px;
  }
@@ -238,28 +237,42 @@ input{
     color: white;
     font-size: 20px;
 }
+label.tag_Menu{
+   display: none; 
+   text-transform: uppercase;
+   font-size: 20px;
+   cursor: pointer;
+   color: white;
+   position: relative;
 
-@media(max-width:900px){
+}
+#menu{
+    display: none;
+}
+
+@media(max-width:800px){
     section{
         width: 100% auto;
         height: auto;
+        display: flex;
+        flex-direction: column;
     }
     nav{
         width: 50px auto;
         height: auto;
     }
-    header ul{
+    nav ul{
         display: flex;
         flex-direction: column;
         justify-content: center;
         padding-top: 20px;
-
-
-    }
+        display: none;
+}
     
     #home h2{
       font-size: 50px;
       padding-top: 200px;
+      text-align: center;
     }
     #home h3{
         text-align: center;
@@ -273,10 +286,6 @@ input{
         margin: 0;
         padding: 0;
     }
-    #About{
-        display: flex;
-        flex-direction: column;
-    }
     #About img{
         width: 50%;
         height: auto;
@@ -285,4 +294,15 @@ input{
     .three{
         padding: 0;
     }
+    .details{
+        padding-top: 60px;
+    }
+   
+   label.tag_Menu{
+       display: block;
+   }
+   label.tag_Menu:hover>.table{
+       display: block;
+       background-color: cadetblue;
+   }
 }
