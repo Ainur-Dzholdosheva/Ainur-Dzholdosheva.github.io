@@ -237,16 +237,8 @@ input{
     color: white;
     font-size: 20px;
 }
-label.tag_Menu{
-   display: none; 
-   text-transform: uppercase;
-   font-size: 20px;
-   cursor: pointer;
-   color: white;
-   position: relative;
 
-}
-#menu{
+.bar{
     display: none;
 }
 
@@ -266,8 +258,12 @@ label.tag_Menu{
         flex-direction: column;
         justify-content: center;
         padding-top: 20px;
-        display: none;
+
 }
+nav li{
+    display: none;
+}
+
     
     #home h2{
       font-size: 50px;
@@ -297,12 +293,10 @@ label.tag_Menu{
     .details{
         padding-top: 60px;
     }
+   .bar{
+       display: block;
+       
+   }
    
-   label.tag_Menu{
-       display: block;
-   }
-   label.tag_Menu:hover>.table{
-       display: block;
-       background-color: cadetblue;
-   }
+
 }
