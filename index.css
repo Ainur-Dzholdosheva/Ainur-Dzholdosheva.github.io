@@ -245,10 +245,16 @@ input{
     color: white;
     font-size: 20px;
 }
+.single{
+    color: seashell;
+    font-size: 30px;
+}
 
-.bar{
+#wrapper,.single{
     display: none;
 }
+
+
 
 @media(max-width:800px){
     section{
@@ -267,12 +273,28 @@ input{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding-top: 20px;
-
-}
-nav li{
+        
+        }
+    nav li{
+    
     display: none;
-}
+    }
+
+    .single{
+        padding-top: 10px;
+    display: block;
+    }
+    
+    #wrapper:checked + label .table li{
+    opacity: 1;
+    display: block;
+    transition: all 0.7s ease-in-out;
+    }
+
+    #wrapper:checked + label .table {
+    height: 200px;
+    }
+
 
     
     #home h2{
@@ -305,10 +327,6 @@ nav li{
     .details{
         padding-top: 60px;
     }
-   .bar{
-       display: block;
-       
-   }
    
-
+   
 }
